@@ -8,6 +8,7 @@
 * @license GNU GENERAL PUBLIC LICENSE VERSION 3
 * @package yii2-fontawesome
 * @version 1.2.1
+* add some icons
 */
 
 namespace cinghie\fontawesome;
@@ -24,13 +25,14 @@ class FontAwesomeMinifyAsset extends AssetBundle
     /**
      * @inherit
      */
-    public $sourcePath = '@bower/fontawesome';
+    public $sourcePath = '@bower';
 
     /**
      * @inherit
      */
     public $css = [
-        'css/font-awesome.min.css',
+        'fontawesome/css/font-awesome.min.css',
+        'ionicons/css/ionicons.min.css',
     ];
     
     /**
