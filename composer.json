@@ -13,8 +13,8 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower/fontawesome": "*",
-        "bower/ionicons": "*"
+        "bower-asset/fontawesome": "*",
+        "bower-asset/ionicons": "*"
     },
     "autoload": {
         "psr-4": {
